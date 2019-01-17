@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Benz 190 SL</title>
+
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
+
+        <script src="babylon.js"></script>
+        <script src="babylonjs.loaders.min.js"></script>
+        <script src="pep.js"></script>
+    </head>
+
+   <body>
+
+    <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
+
+    <script>
+        var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
+        var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+
+        /******* Add the create scene function ******/
+        var createScene = function () {
+            var scene = new BABYLON.Scene(engine);
+            engine.enableOfflineSupport = false;
+
+            scene.clearColor = BABYLON.Color3(0.9, 0.9, 0.8);
+
+            //Adding a light
+            var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(2000, 2000, 100), scene);
+
+            //Adding an Arc Rotate Camera
+            var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0.8, 100, BABYLON.Vector3.Zero(), scene);
+            camera.upperBetaLimit = Math.PI / 2.1;
+            camera.lowerRadiusLimit = 3000;
+	        camera.upperRadiusLimit = 15000;
+            camera.attachControl(canvas, false);
+
+            var assetsManager = new BABYLON.AssetsManager(scene);
+            var meshTask = assetsManager.addMeshTask("bike task", "", "models/", "bantam.babylon");
+            
+            // meshTask.onSuccess = function (task) {
+            //     task.loadedMeshes[0].position = BABYLON.Vector3.Zero();
+            //     let material = task.loadedMeshes[0].material = new BABYLON.StandardMaterial('mat', scene);
+            //     material.emissiveColor = BABYLON.Color3.Red();
+            //     material.diffuseColor = BABYLON.Color3.Yellow();
+            // }	
+
+            // Move the light with the camera
+            scene.registerBeforeRender(function () {
+                // light.position = camera.position;
+            });
+            
+            assetsManager.onFinish = function (tasks) {
+                engine.runRenderLoop(function () {
+                    scene.render();
+                });
+            };
+            
+            assetsManager.load();
+
+            var ground = BABYLON.MeshBuilder.CreateGround("ground", {height: 100000, width: 100000}, scene); //default ground
+            // ground.receiveShadows = true;
+            ground.diffuseColor = BABYLON.Color3(0.9, 0.9, 0.8);
+
+            return scene;
+        }
+        /******* End of the create scene function ******/    
+
+        var scene = createScene(); //Call the createScene function
+
+        // Register a render loop to repeatedly render the scene
+        engine.runRenderLoop(function () { 
+                scene.render();
+        });
+
+        // Watch for browser/canvas resize events
+        window.addEventListener("resize", function () { 
+                engine.resize();
+        });
+    </script>
+
+   </body>
+
+</html>

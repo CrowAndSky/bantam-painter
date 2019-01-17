@@ -1,0 +1,518 @@
+Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		export scope        :  ALL
+		inline textures     :  false
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  /Users/prw01s/Development/bantam-painter/models/
+	Python World class constructor completed
+	processing begun of mesh:  seat_springs
+		processing begun of Standard material:  chrome
+			Reflection texture found "refl.003"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		num positions      :  1931
+		num normals        :  1931
+		num uvs            :  3862
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6336
+	processing begun of mesh:  brake_pedal
+		processing begun of Standard material:  rubber_pLASTIC
+		processing begun of Standard material:  green
+			Reflection texture found "refl.002"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  bantam.Multimaterial#0
+		num positions      :  272
+		num normals        :  272
+		num uvs            :  544
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1224
+	processing begun of mesh:  brakebar_b
+		processing begun of Standard material:  Blackpaint
+			Reflection texture found "refl.001"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		num positions      :  343
+		num normals        :  343
+		num uvs            :  686
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1392
+	processing begun of mesh:  bolts_05
+		processing begun of Standard material:  darkmetal
+			Reflection texture found "refl"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		num positions      :  589
+		num normals        :  589
+		num uvs            :  1178
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2268
+	processing begun of mesh:  mudguard_f
+		registered as also a user of material:  green
+		num positions      :  2161
+		num normals        :  2161
+		num uvs            :  4322
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  10356
+	processing begun of mesh:  speedo
+		processing begun of Standard material:  12___Default
+			Ambient texture found "Ka.001"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		registered as also a user of material:  rubber_pLASTIC
+		processing begun of Standard material:  glass
+		processing begun of multimaterial:  bantam.Multimaterial#1
+		num positions      :  1143
+		num normals        :  1143
+		num uvs            :  2286
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3792
+	processing begun of mesh:  lampsupport_b
+		registered as also a user of material:  Blackpaint
+		num positions      :  76
+		num normals        :  76
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  228
+	processing begun of mesh:  bolts_015
+		registered as also a user of material:  darkmetal
+		num positions      :  558
+		num normals        :  558
+		num uvs            :  1116
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3288
+	processing begun of mesh:  tyre_f
+		registered as also a user of material:  rubber_pLASTIC
+		num positions      :  21049
+		num normals        :  21049
+		num uvs            :  42098
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  34440
+	processing begun of mesh:  bolts_10
+		registered as also a user of material:  darkmetal
+		num positions      :  415
+		num normals        :  415
+		num uvs            :  830
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1848
+	processing begun of mesh:  bolts_02
+		processing begun of Standard material:  Standard_2
+		num positions      :  291
+		num normals        :  291
+		num uvs            :  582
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1128
+	processing begun of mesh:  tripleclamp
+		registered as also a user of material:  green
+		num positions      :  636
+		num normals        :  636
+		num uvs            :  1272
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3432
+	processing begun of mesh:  tyre_b
+		registered as also a user of material:  rubber_pLASTIC
+		num positions      :  21038
+		num normals        :  21038
+		num uvs            :  42076
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  34440
+	processing begun of mesh:  bolts_07
+		processing begun of Standard material:  steel
+			Reflection texture found "refl.004"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		num positions      :  518
+		num normals        :  518
+		num uvs            :  1036
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1512
+	processing begun of mesh:  mudguard_b
+		registered as also a user of material:  green
+		num positions      :  3594
+		num normals        :  3594
+		num uvs            :  7188
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  19896
+	processing begun of mesh:  footpegs
+		registered as also a user of material:  rubber_pLASTIC
+		num positions      :  1859
+		num normals        :  1859
+		num uvs            :  3718
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  9912
+	processing begun of mesh:  frame
+		registered as also a user of material:  green
+		num positions      :  3660
+		num normals        :  3660
+		num uvs            :  7320
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  15432
+	processing begun of mesh:  gascap
+		registered as also a user of material:  chrome
+		num positions      :  487
+		num normals        :  487
+		num uvs            :  974
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2880
+	processing begun of mesh:  batterybox
+		registered as also a user of material:  green
+		num positions      :  2151
+		num normals        :  2151
+		num uvs            :  4302
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  9564
+	processing begun of mesh:  bolts_08
+		registered as also a user of material:  darkmetal
+		num positions      :  1119
+		num normals        :  1119
+		num uvs            :  2238
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6576
+	processing begun of mesh:  suspension_r
+		registered as also a user of material:  chrome
+		registered as also a user of material:  green
+		processing begun of multimaterial:  bantam.Multimaterial#2
+		num positions      :  1020
+		num normals        :  1020
+		num uvs            :  2040
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3498
+	processing begun of mesh:  bolts_014
+		registered as also a user of material:  darkmetal
+		num positions      :  280
+		num normals        :  280
+		num uvs            :  560
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1644
+	processing begun of mesh:  grips
+		registered as also a user of material:  rubber_pLASTIC
+		num positions      :  1019
+		num normals        :  1019
+		num uvs            :  2038
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4320
+	processing begun of mesh:  bolts_06
+		registered as also a user of material:  darkmetal
+		num positions      :  1548
+		num normals        :  1548
+		num uvs            :  3096
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4536
+	processing begun of mesh:  tank
+		processing begun of Standard material:  tank
+			Ambient texture found "Ka"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+			Reflection texture found "refl.005"
+				Image texture found, type:  reflectionTexture, mapped using: "UVMap"
+		num positions      :  1865
+		num normals        :  1865
+		num uvs            :  3730
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  5508
+	processing begun of mesh:  handlebar
+		registered as also a user of material:  chrome
+		num positions      :  1109
+		num normals        :  1109
+		num uvs            :  2218
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  5352
+	processing begun of mesh:  engine_cover
+		registered as also a user of material:  Standard_2
+		num positions      :  4423
+		num normals        :  4423
+		num uvs            :  8846
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12543
+	processing begun of mesh:  lamp_b
+		processing begun of Standard material:  redglass
+		registered as also a user of material:  chrome
+		processing begun of multimaterial:  bantam.Multimaterial#3
+		num positions      :  355
+		num normals        :  355
+		num uvs            :  710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1488
+	processing begun of mesh:  rack
+		registered as also a user of material:  green
+		num positions      :  1119
+		num normals        :  1119
+		num uvs            :  2238
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4512
+	processing begun of mesh:  brake_cable01
+		processing begun of Standard material:  rubber_plastic
+		num positions      :  1386
+		num normals        :  1386
+		num uvs            :  2772
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6204
+	processing begun of mesh:  kickstart
+		registered as also a user of material:  chrome
+		num positions      :  1326
+		num normals        :  1326
+		num uvs            :  2652
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6120
+	processing begun of mesh:  suspension_l
+		registered as also a user of material:  chrome
+		registered as also a user of material:  green
+		processing begun of multimaterial:  bantam.Multimaterial#4
+		num positions      :  1021
+		num normals        :  1021
+		num uvs            :  2042
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3498
+	processing begun of mesh:  wheel_f
+		registered as also a user of material:  green
+		num positions      :  10562
+		num normals        :  10562
+		num uvs            :  21124
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  52818
+	processing begun of mesh:  bolts_09
+		registered as also a user of material:  darkmetal
+		num positions      :  560
+		num normals        :  560
+		num uvs            :  1120
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3288
+	processing begun of mesh:  sparkplug
+		registered as also a user of material:  rubber_pLASTIC
+		num positions      :  860
+		num normals        :  860
+		num uvs            :  1720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4092
+	processing begun of mesh:  exhaust
+		registered as also a user of material:  Blackpaint
+		registered as also a user of material:  chrome
+		processing begun of multimaterial:  bantam.Multimaterial#5
+		num positions      :  1812
+		num normals        :  1812
+		num uvs            :  3624
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  7938
+	processing begun of mesh:  seat
+		processing begun of Standard material:  leather
+			Bump texture found "Bump.001"
+				Image texture found, type:  bumpTexture, mapped using: "UVMap"
+		num positions      :  1881
+		num normals        :  1881
+		num uvs            :  3762
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  10872
+	processing begun of mesh:  bolts_013
+		registered as also a user of material:  darkmetal
+		num positions      :  558
+		num normals        :  558
+		num uvs            :  1116
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3288
+	processing begun of mesh:  bolts_01
+		registered as also a user of material:  darkmetal
+		num positions      :  591
+		num normals        :  591
+		num uvs            :  1182
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2268
+	processing begun of mesh:  stand
+		registered as also a user of material:  green
+		num positions      :  659
+		num normals        :  659
+		num uvs            :  1318
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2568
+	processing begun of mesh:  brake_b
+		registered as also a user of material:  green
+		num positions      :  637
+		num normals        :  637
+		num uvs            :  1274
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1836
+	processing begun of mesh:  engine_block
+		registered as also a user of material:  steel
+		registered as also a user of material:  Blackpaint
+		processing begun of multimaterial:  bantam.Multimaterial#6
+		num positions      :  2220
+		num normals        :  2220
+		num uvs            :  4440
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6108
+	processing begun of mesh:  handleclamp
+		registered as also a user of material:  Blackpaint
+		num positions      :  653
+		num normals        :  653
+		num uvs            :  1306
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  wheel_b
+		registered as also a user of material:  green
+		num positions      :  7395
+		num normals        :  7395
+		num uvs            :  14790
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  37776
+	processing begun of mesh:  lamp_f
+		processing begun of Standard material:  lampglass
+			Bump texture found "Bump"
+				Image texture found, type:  bumpTexture, mapped using: "UVMap"
+		registered as also a user of material:  chrome
+		registered as also a user of material:  green
+		processing begun of multimaterial:  bantam.Multimaterial#7
+		num positions      :  6236
+		num normals        :  6236
+		num uvs            :  12472
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  32736
+	processing begun of mesh:  distributor_cover
+		registered as also a user of material:  steel
+		num positions      :  1908
+		num normals        :  1908
+		num uvs            :  3816
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  5904
+	processing begun of mesh:  chaincover
+		registered as also a user of material:  green
+		num positions      :  127
+		num normals        :  127
+		num uvs            :  254
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  288
+	processing begun of mesh:  engine_cylinder
+		registered as also a user of material:  steel
+		registered as also a user of material:  Blackpaint
+		processing begun of multimaterial:  bantam.Multimaterial#8
+		num positions      :  4977
+		num normals        :  4977
+		num uvs            :  9954
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  11511
+	processing begun of mesh:  chain
+		registered as also a user of material:  darkmetal
+		num positions      :  23570
+		num normals        :  23570
+		num uvs            :  47140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  35964
+	processing begun of mesh:  forks
+		registered as also a user of material:  steel
+		registered as also a user of material:  rubber_pLASTIC
+		registered as also a user of material:  green
+		processing begun of multimaterial:  bantam.Multimaterial#9
+		num positions      :  3226
+		num normals        :  3226
+		num uvs            :  6452
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  13644
+	processing begun of mesh:  bolts_04
+		registered as also a user of material:  steel
+		num positions      :  577
+		num normals        :  577
+		num uvs            :  1154
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2256
+	processing begun of mesh:  lampsupport_f
+		registered as also a user of material:  green
+		num positions      :  577
+		num normals        :  577
+		num uvs            :  1154
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  768
+	processing begun of mesh:  bolts_11
+		registered as also a user of material:  steel
+		num positions      :  843
+		num normals        :  843
+		num uvs            :  1686
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4932
+	processing begun of mesh:  Cylinder01
+		registered as also a user of material:  darkmetal
+		registered as also a user of material:  Blackpaint
+		registered as also a user of material:  chrome
+		processing begun of multimaterial:  bantam.Multimaterial#10
+		num positions      :  3108
+		num normals        :  3108
+		num uvs            :  6216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12117
+	processing begun of mesh:  sprocket_01
+		registered as also a user of material:  Blackpaint
+		num positions      :  1182
+		num normals        :  1182
+		num uvs            :  2364
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  7188
+	processing begun of mesh:  gear_lever
+		registered as also a user of material:  rubber_pLASTIC
+		registered as also a user of material:  chrome
+		processing begun of multimaterial:  bantam.Multimaterial#11
+		num positions      :  1327
+		num normals        :  1327
+		num uvs            :  2654
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6120
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 10.9878 secs
