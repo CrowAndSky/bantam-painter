@@ -60,10 +60,10 @@ newmtl groud
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\3DMAX\3ddd\chebbi_set\ground.jpg
-	map_Kd D:\3DMAX\3ddd\chebbi_set\ground.jpg
-	map_bump D:\3DMAX\3ddd\chebbi_set\ground_bump.jpg
-	bump D:\3DMAX\3ddd\chebbi_set\ground_bump.jpg
+	map_Ka ground.jpg
+	map_Kd ground.jpg
+	map_bump ground_bump.jpg
+	bump ground_bump.jpg
 
 newmtl stone_black
 	Ns 10.0000
@@ -76,5 +76,5 @@ newmtl stone_black
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\3DMAX\3ddd\planter_group\stone_black.jpg
-	map_Kd D:\3DMAX\3ddd\planter_group\stone_black.jpg
+	map_Ka stone_black.jpg
+	map_Kd stone_black.jpg

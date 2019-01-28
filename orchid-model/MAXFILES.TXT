@@ -1,0 +1,9 @@
+I:\model_forSale\orchid\orchid_W_single\t$m$p$$$\orchid_White.max
+I:\model_forSale\orchid\orchid_W_single\t$m$p$$$\MAXFILES.TXT
+I:\model_forSale\orchid\textures\orchird_trunk_green.jpg
+I:\model_forSale\orchid\textures\orchird_trunk_spec.jpg
+I:\model_forSale\orchid\textures\orchird_moth_spec.jpg
+I:\model_forSale\orchid\textures\orchird_moth_white.jpg
+I:\model_forSale\orchid\textures\orchird_trunk_white.jpg
+I:\model_forSale\orchid\textures\Grass0027_1_Sbump.jpg
+I:\model_forSale\orchid\textures\Grass0027_1_S.jpg
